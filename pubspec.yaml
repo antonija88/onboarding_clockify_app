@@ -30,6 +30,25 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  dio: ^5.3.3
+  retrofit: ^4.0.3
+  hooks_riverpod: ^2.4.5
+  gap: ^3.0.1
+  equatable: ^2.0.5
+  either_dart: ^1.0.0
+  flutter_architecture:
+    git:
+      url: https://x-token-auth:ATCTT3xFfGN0cf0Ifs1eXkb__0Aq5_EOQchDQ3W1foOSq5zPUdYr4fNAm5JARBJP4PQJqINuEUQLT2GUe2H-9EFEr-GFatA2Wbfqwr7Om0awQvNPQGA0EPDXEgkWyGeg62ROyeTwT_ZROuAJMQ-GatMy2MnhMgCjci5BBWyjRFvlIeg8GS3mVmM=3139756E@bitbucket.org/sbetroisdorf/flutter_architecture.git
+      path: packages/flutter_architecture
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  flutter_loggy: ^2.0.2
+  flutter_loggy_dio: ^3.0.1
+  flutter_form_builder: ^9.2.1
+  intl: ^0.19.0
+  flutter_hooks: ^0.20.5
+
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -39,6 +58,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  retrofit_generator: ^8.0.3
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
